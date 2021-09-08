@@ -1,0 +1,88 @@
+Mono path[0] = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Managed'
+Mono config path = 'C:/Program Files (x86)/Steam/steamapps/common/RimWorld/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.26f1 (e0392c6b2363)
+[Subsystems] Discovering subsystems at path C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 590 Series (ID=0x67df)
+    Vendor:   
+    VRAM:     8171 MB
+    Driver:   27.20.1034.6
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.125 seconds
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.671200 ms
+Command line arguments: -popupwindow
+RimWorld 1.3.3102 rev827
+Parsed 2287142613 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Parsed 2287142613 as int. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF532D90.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF2C1550.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0DB72A020.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF731840.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF52B070.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF7B0250.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0DB5AD730.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF7B2460.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FF86D020.dll
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F0FFD55170.dll
+[HugsLib] version 9.0.0
+RimThreaded 2.5.15.0  is patching methods...
+Fallback handler could not load library C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64_Data/Mono/data-000001F10694DA50.dll
+RimThreaded Field Replacements Complete.
+RimThreaded patching is complete.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 0.300800 ms
+
+Unloading 59 unused Assets to reduce memory usage. Loaded Objects now: 12948.
+Total: 85.289600 ms (FindLiveObjects: 0.484500 ms CreateObjectMapping: 0.164400 ms MarkObjects: 84.593000 ms  DeleteObjects: 0.047200 ms)
+
+Loading game from file Before test 1 with mods:
+  - brrainz.harmony
+  - Ludeon.RimWorld
+  - Ludeon.RimWorld.Royalty
+  - UnlimitedHugs.HugsLib
+  - majorhoff.rimthreaded
+RimThreaded is building new Reservations Dictionary...
+Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 17649.
+Total: 160.940800 ms (FindLiveObjects: 0.677500 ms CreateObjectMapping: 0.244900 ms MarkObjects: 159.997200 ms  DeleteObjects: 0.020800 ms)
+
+Exception filling window for Verse.Dialog_DebugActionsMenu: System.NullReferenceException: Object reference not set to an instance of an object
+  at Verse.GridsUtility.Fogged (Verse.IntVec3 c, Verse.Map map) [0x00000] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Room.get_Fogged () [0x0001b] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Room.Notify_RoomShapeChanged () [0x00038] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at RimWorld.Building_Bed.SpawnSetup (Verse.Map map, System.Boolean respawningAfterLoad) [0x00074] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.GenSpawn.Spawn (Verse.Thing newThing, Verse.IntVec3 loc, Verse.Map map, Verse.Rot4 rot, Verse.WipeMode wipeMode, System.Boolean respawningAfterLoad) [0x00261] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at RimWorld.Designator_Build.DesignateSingleCell (Verse.IntVec3 c) [0x00098] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at RimWorld.Autotests_ColonyMaker.TryMakeBuilding (Verse.ThingDef def) [0x00072] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at RimWorld.Autotests_ColonyMaker.MakeColony (RimWorld.ColonyMakerFlag[] flags) [0x004d0] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at RimWorld.Autotests_ColonyMaker.MakeColony_Full () [0x00012] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.DebugAutotests.MakeColonyFull () [0x00000] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Dialog_DebugOptionLister.DebugAction (System.String label, System.Action action, System.Boolean highlight) [0x0003f] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Dialog_DebugActionsMenu.DoListingItems () [0x00077] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Dialog_OptionLister.DoWindowContents (UnityEngine.Rect inRect) [0x00176] in <d243303f714d4dc48680ccaecd2f594e>:0 
+  at Verse.Window.InnerWindowOnGUI (System.Int32 x) [0x001ce] in <d243303f714d4dc48680ccaecd2f594e>:0  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Mouse position stack is not empty. There were more calls to BeginScrollView than EndScrollView. Fixing. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 2dc -> priority: 1 
+  Thread -> id: 5408 -> priority: 1 
+  Thread -> id: 13c -> priority: 1 
+  Thread -> id: 30b8 -> priority: 1 
+  Thread -> id: 4ca0 -> priority: 1 
+  Thread -> id: 4ef4 -> priority: 1 
+  Thread -> id: 2e08 -> priority: 1 
+  Thread -> id: 5198 -> priority: 1 
